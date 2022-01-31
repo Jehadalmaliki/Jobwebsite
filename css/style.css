@@ -1,0 +1,12 @@
+.navbar-expand-lg .navbar-collapse {
+    align-content: space-around;
+    justify-content: flex-end;
+}
+button.btn.btn-outline-warning {
+    margin-inline-end: 1rem;
+    
+    
+}
+.text-warning{
+    font-weight: 600;
+}
