@@ -10,3 +10,25 @@ button.btn.btn-outline-warning {
 .text-warning{
     font-weight: 600;
 }
+/* vertical-align: middle;
+border-style: none;
+} */
+.btn-outline-warning {
+    color: #20c997;
+    border-color: #20c997;
+}
+.btn-outline-warning:hover {
+    color: #000;
+    background-color: #20c997;
+    border-color: #20c997;
+}
+.btn-warning {
+    color: #000;
+    background-color: #20c997;
+    border-color: #20c997;
+}
+.btn-warning:hover {
+    color: #000;
+    background-color: #20c997;
+    border-color: #20c997;
+}
