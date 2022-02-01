@@ -40,17 +40,31 @@ button.btn.btn-outline-warning {
    color: var(--blue);
 }
 .mt-3 {
-    margin-top: 6rem!important;
+    margin-block-start: 6rem!important;
 }
+.mt-5 {
+    margin-block-start: 11rem!important;
+}
+
 .btn-outline-success {
-    color: var(--white);
-    border-color: var(--white);
-}
-.btn-outline-success:hover {
     color: #fff;
     background-color: var(--white);
     border-color: var(--white);
 }
+.btn-outline-success:hover {
+    color: var(--white);
+    border-color: var(--white);
+    background-color: var(--blue) ;
+}
 .text-info{
     color:var(--white) !important;
+}
+.h-50{
+    height: 600px !important;
+}
+.imghight{
+    height: 200px !important;  
+}
+.row-margin{
+    margin-block-start: -9rem;
 }
