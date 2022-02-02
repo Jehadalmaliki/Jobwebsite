@@ -36,6 +36,11 @@ button.btn.btn-outline-warning {
     background-color: var(--blue) !important;
     border-color: var(--blue) !important;
 }
+.btn-primary1 {
+    color: #fff !important;
+    background-color: var(--white) !important;
+    border-color: var(--white) !important;
+}
 .colorFont{
    color: var(--blue) !important;
    
@@ -68,4 +73,11 @@ button.btn.btn-outline-warning {
 }
 .row-margin{
     margin-block-start: -9rem;
+}
+.divider:after,
+.divider:before {
+  content: "" !important;
+  flex: 1 !important;
+  height: 1px !important;
+  background: #eee !important;
 }
