@@ -38,6 +38,7 @@ button.btn.btn-outline-warning {
 }
 .colorFont{
    color: var(--blue) !important;
+   
 }
 .mt-3 {
     margin-block-start: 6rem!important;
