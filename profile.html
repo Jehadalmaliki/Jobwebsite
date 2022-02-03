@@ -14,6 +14,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/profile.css" rel="stylesheet" />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	</script>
   </head>
   
   <body>
@@ -94,7 +97,7 @@
                           <h4>Jehad Almaliki</h4>
                           <p class="text-secondary mb-1">Software Engineering</p>
                           <p class="text-muted font-size-sm">Taiz, Yemen</p>
-                          <button class="btn btn-outline-success">Download</button>
+                          <a id="link" href="no-script.html" class="btn btn-outline-success">Download</a>
                          
                         </div>
                       </div>
@@ -326,7 +329,16 @@
     </div>
     <!-- Copyright -->
   </footer>
-
+  <script>
+		$(document).ready(function () {
+			$("#link").click(function (e) {
+				e.preventDefault();
+				
+				window.location.href
+					= "image/p.png";
+			});
+		});
+	</script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html> 
